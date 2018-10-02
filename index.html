@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>More Fun With Functions</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> <!-- BOOTSTRAP CDN -->
+  </head>
+  <body>
+    <h1 class="text-center">More Fun With Functions Assignment</h1>
+    <h4 class="text-center" id="user"></h4>
+    <div class="container">
+    <h2>Instructions</h2>
+    <p>Don't forget your name add it inside index.js on line 4.  Each problem will have a div with an id attribute problem-# assigned to it.  The answer to each of the problems will be placed inside a specific div by using document.getElementById("problem-#").innerHTML = yourAnswer.  All answers should be completed inside of index.js look for commented brackets to know where to place your code.</p>
+      </div>
+    <div class="container">
+      <h3 class="problem-1">Problem 1:</h3>
+      <p>Using the weatherForecastItems object display the url assigned to the termsofService key by accessing the variable using dot notation.</p>
+      <div id="problem-1">
+      </div>
+      <div class="answerKey">
+        <h4>Solution</h4>
+        <pre id="answer-1">
+        </pre>
+        <h5>Feedback</h5>
+        <p id="feedback-1"></p>
+      </div>
+      <br>
+      <h3 class="problem-2">Problem 2:</h3>
+      <p>Using the weatherForecastItems object display the contents of reversedForecastDesc for Saturday Night.</p>
+      <div id="problem-2">
+      </div>
+      <div class="answerKey">
+        <h4>Solution</h4>
+        <pre id="answer-2">
+        </pre>
+        <h5>Feedback</h5>
+        <p id="feedback-2"></p>
+      </div>
+      <br>
+      <h3 class="problem-3">Problem 3:</h3>
+      <p>Uh oh our answer for problem 2 looks a little backwards. Create a function called reverseIt that takes a single string parameter and returns the value of that string reversed.  Call reverseIt() and pass it the answer for problem 2 to display your answer.</p>
+      <div id="problem-3">
+      </div>
+      <div class="answerKey">
+        <h4>Solution</h4>
+        <pre id="answer-3">
+        </pre>
+        <h5>Feedback</h5>
+        <p id="feedback-3"></p>
+      </div>
+      <br>
+      <h3 class="problem-4">Problem 4:</h3>
+      <p>Using the weatherObservations array create a function called makeItRainLists that takes an array as a parameter and that loops over the array to create an unordered list that displays the time and chance of rain as a percentage(50% not 0.5). Call makeItRainLists(weatherObservations) to display the completed list.</p>
+      <div id="problem-4">
+      </div>
+      <div class="answerKey">
+        <h4>Solution</h4>
+        <pre id="answer-4">
+        </pre>
+        <h5>Feedback</h5>
+        <p id="feedback-4"></p>
+      </div>
+      <br>
+      <h3 class="problemC-1">Challenge 1:</h3>
+      <p>Using <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter"> Array.prototype.filter</a> and the weatherObservations array create another unordered list ONLY showing times that have LESS than 50% chance of rain(<em>hint: you can reuse your function from problem-4 for list displaying</em>).  Display the completed list to the div with an id called challenge-1.</p>
+      <div id="challenge-1">
+      </div>
+      <div class="answerKey">
+        <h4>Solution</h4>
+        <pre id="answerC-1">
+        </pre>
+        <h5>Feedback</h5>
+        <p id="feedbackC-1"></p>
+      </div>
+      <br>
+      <h3 class="problemC-2">Challenge 2:</h3>
+      <p>Using <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">Array.prototype.map</a> and the weatherForecastItems object loop through each forecastday and display the title and the fixed reversedDesc in an unordered list. EX. <em>"Here is Friday Night's forecast. Clear skies. Low 67F. Winds SW at 5 to 10 mph."</em></p>
+      <div id="challenge-2">
+      </div>
+      <div class="answerKey">
+        <h4>Solution</h4>
+        <pre id="answerC-2">
+        </pre>
+        <h5>Feedback</h5>
+        <p id="feedbackC-2"></p>
+      </div>
+      <br>
+      </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="weatherData.js"></script>
+    <script src="index.js"></script>
+    <!-- <script src="more-fun-with-functions-answerKey.js" charset="utf-8"></script> -->
+  </body>
+</html>
